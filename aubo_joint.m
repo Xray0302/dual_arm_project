@@ -2,7 +2,7 @@ clc
 clear all
 close all
 
-data=xlsread('公开数据.xlsx');
+data=xlsread('public_data.xlsx');
 
 
 for i=1:length(data(:,1))
