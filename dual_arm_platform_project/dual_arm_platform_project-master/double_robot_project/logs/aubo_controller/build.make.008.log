@@ -1,0 +1,3 @@
+[ 33%] Built target aubo_joint_trajectory_action
+[ 66%] Built target right_arm_aubo_joint_trajectory_action
+[100%] Built target left_arm_aubo_joint_trajectory_action

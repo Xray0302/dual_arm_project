@@ -1,0 +1,8 @@
+prefix=/home/xurui/double_robot_project/devel
+
+Name: tracer_controller
+Description: Description of tracer_controller
+Version: 0.0.0
+Cflags: -I/home/xurui/double_robot_project/src/scout_robot/tracer_controller/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -ltracer_controller
+Requires: 

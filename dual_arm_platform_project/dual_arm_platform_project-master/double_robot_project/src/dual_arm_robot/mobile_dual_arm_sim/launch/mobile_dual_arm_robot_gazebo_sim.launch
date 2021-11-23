@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+    <include file="$(find mobile_dual_arm_sim)/launch/mobile_dual_arm_empty_world.launch" />
+    <include file="$(find tracer_base)/launch/tracer_base_sim.launch" />
+
+    <include file="$(find mobile_dual_arm_sim)/launch/dual_arm_moveit_planning_execution.launch">
+        <arg name="left_robot_ip" value="192.168.1.108" />
+        <arg name="right_robot_ip" value="192.168.1.107" />
+    </include>
+
+</launch>

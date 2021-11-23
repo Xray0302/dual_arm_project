@@ -1,0 +1,8 @@
+prefix=/home/xurui/double_robot_project/devel
+
+Name: aubo_i5_moveit_config
+Description: Description of aubo_i5_moveit_config
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,15 @@
+<launch>
+
+  <arg name="debug" default="false" />
+  <arg unless="$(arg debug)" name="launch_prefix" value="" />
+  <arg     if="$(arg debug)" name="launch_prefix" value="gdb --ex run --args" />
+
+  <arg name="config" default="false" />
+  <arg unless="$(arg config)" name="command_args" value="" />
+
+  <node name="$(anon rviz)" launch-prefix="$(arg launch_prefix)" pkg="rviz" type="rviz" respawn="false"
+	args="$(arg command_args)" output="screen">
+    <rosparam command="load" file="$(find mobile_dual_arm_sim)/config/left_kinematics.yaml"/>
+  </node>
+
+</launch>

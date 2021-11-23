@@ -1,0 +1,8 @@
+prefix=/home/xurui/double_robot_project/devel
+
+Name: aubo_i7_moveit_config
+Description: Description of aubo_i7_moveit_config
+Version: 1.3.3
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,7 @@
+[01m[K/home/xurui/double_robot_project/src/scout_robot/agx_sdk-scout_v2/src/platforms/scout_can_parser.c:[m[K In function '[01m[KEncodeScoutMsgToCAN[m[K':
+[01m[K/home/xurui/double_robot_project/src/scout_robot/agx_sdk-scout_v2/src/platforms/scout_can_parser.c:185:41:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of '[01m[KEncodeScoutnControlModeMsgToCAN[m[K' from incompatible pointer type [[01;35m[K-Wincompatible-pointer-types[m[K]
+         EncodeScoutnControlModeMsgToCAN([01;35m[K&[m[K(msg->body.motion_control_msg), tx_frame);
+                                         [01;35m[K^[m[K
+[01m[K/home/xurui/double_robot_project/src/scout_robot/agx_sdk-scout_v2/src/platforms/scout_can_parser.c:16:13:[m[K [01;36m[Knote: [m[Kexpected '[01m[Kconst ModSelectMessage * {aka const struct <anonymous> *}[m[K' but argument is of type '[01m[Kconst MotionControlMessage * {aka const struct <anonymous> *}[m[K'
+ static void [01;36m[KEncodeScoutnControlModeMsgToCAN[m[K(const ModSelectMessage *msg, struct can_frame *tx_frame);
+             [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

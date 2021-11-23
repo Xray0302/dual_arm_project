@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target aubo_joint_trajectory_action[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/aubo_joint_trajectory_action.dir/src/joint_trajectory_action.cpp.o[0m
+[ 33%] [32m[1mLinking CXX executable /home/xurui/double_robot_project/devel/lib/aubo_controller/aubo_joint_trajectory_action[0m
+[ 33%] Built target aubo_joint_trajectory_action
+[35m[1mScanning dependencies of target right_arm_aubo_joint_trajectory_action[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/right_arm_aubo_joint_trajectory_action.dir/src/right_arm_joint_trajectory_action.cpp.o[0m
+[35m[1mScanning dependencies of target left_arm_aubo_joint_trajectory_action[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/left_arm_aubo_joint_trajectory_action.dir/src/left_arm_joint_trajectory_action.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable /home/xurui/double_robot_project/devel/lib/aubo_controller/right_arm_aubo_joint_trajectory_action[0m
+[ 83%] Built target right_arm_aubo_joint_trajectory_action
+[100%] [32m[1mLinking CXX executable /home/xurui/double_robot_project/devel/lib/aubo_controller/left_arm_aubo_joint_trajectory_action[0m
+[100%] Built target left_arm_aubo_joint_trajectory_action

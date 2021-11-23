@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "",
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "/home/xurui/double_robot_project/devel/include",
+                "/home/xurui/xurui_ws/devel/include",
+                "/opt/ros/melodic/include",
+                "/home/xurui/double_robot_project/src/aubo_melodic/aubo_controller/include",
+                "/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include",
+                "/home/xurui/double_robot_project/src/aubo_melodic/aubo_kinematics/include",
+                "/home/xurui/double_robot_project/src/aubo_melodic/aubo_msgs/include",
+                "/home/xurui/double_robot_project/src/dual_arm_robot/mobile_dual_arm_sim/include",
+                "/home/xurui/double_robot_project/src/scout_robot/tracer_ros/tracer_base/include",
+                "/home/xurui/double_robot_project/src/scout_robot/tracer_controller/include",
+                "/home/xurui/double_robot_project/src/scout_robot/tracer_ros/tracer_gazebo_sim/include",
+                "/home/xurui/double_robot_project/src/scout_robot/agx_sdk-scout_v2/include",
+                "/usr/include"
+            ],
+            "name": "Linux",
+            "intelliSenseMode": "linux-gcc-x64",
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}

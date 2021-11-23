@@ -1,0 +1,63 @@
+[35m[1mScanning dependencies of target aubo_i10_kinematic[0m
+[  8%] [32mBuilding CXX object CMakeFiles/aubo_i10_kinematic.dir/src/kinematics.cpp.o[0m
+[35m[1mScanning dependencies of target aubo_i3_kinematic[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/aubo_i3_kinematic.dir/src/kinematics.cpp.o[0m
+[35m[1mScanning dependencies of target aubo_i5_kinematic[0m
+[ 25%] [32m[1mLinking CXX shared library /home/xurui/double_robot_project/devel/lib/libaubo_i10_kinematic.so[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/aubo_i5_kinematic.dir/src/kinematics.cpp.o[0m
+[ 33%] Built target aubo_i10_kinematic
+[35m[1mScanning dependencies of target aubo_i10_moveit_kinematic_plugin[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/aubo_i10_moveit_kinematic_plugin.dir/src/aubo_moveit_plugin.cpp.o[0m
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_kinematics/src/aubo_moveit_plugin.cpp:1:0[m[K:
+[01m[K/opt/ros/melodic/include/class_loader/class_loader.h:36:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <class_loader/class_loader.h> is deprecated, include <class_loader/class_loader.hpp> instead. [[01;35m[K-Wcpp[m[K]
+ #[01;35m[Kwarning[m[K Including header <class_loader/class_loader.h> is deprecated, \
+  [01;35m[K^~~~~~~[m[K
+[ 50%] [32m[1mLinking CXX shared library /home/xurui/double_robot_project/devel/lib/libaubo_i3_kinematic.so[0m
+[ 50%] Built target aubo_i3_kinematic
+[35m[1mScanning dependencies of target aubo_i3_moveit_kinematic_plugin[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/aubo_i3_moveit_kinematic_plugin.dir/src/aubo_moveit_plugin.cpp.o[0m
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_kinematics/src/aubo_moveit_plugin.cpp:1:0[m[K:
+[01m[K/opt/ros/melodic/include/class_loader/class_loader.h:36:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <class_loader/class_loader.h> is deprecated, include <class_loader/class_loader.hpp> instead. [[01;35m[K-Wcpp[m[K]
+ #[01;35m[Kwarning[m[K Including header <class_loader/class_loader.h> is deprecated, \
+  [01;35m[K^~~~~~~[m[K
+[ 66%] [32m[1mLinking CXX shared library /home/xurui/double_robot_project/devel/lib/libaubo_i5_kinematic.so[0m
+[ 66%] Built target aubo_i5_kinematic
+[35m[1mScanning dependencies of target aubo_i5_moveit_kinematic_plugin[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/aubo_i5_moveit_kinematic_plugin.dir/src/aubo_moveit_plugin.cpp.o[0m
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_kinematics/src/aubo_moveit_plugin.cpp:1:0[m[K:
+[01m[K/opt/ros/melodic/include/class_loader/class_loader.h:36:2:[m[K [01;35m[Kwarning: [m[K#warning Including header <class_loader/class_loader.h> is deprecated, include <class_loader/class_loader.hpp> instead. [[01;35m[K-Wcpp[m[K]
+ #[01;35m[Kwarning[m[K Including header <class_loader/class_loader.h> is deprecated, \
+  [01;35m[K^~~~~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_kinematics/src/aubo_moveit_plugin.cpp:[m[K In member function '[01m[Kvirtual bool aubo_kinematics::AuboKinematicsPlugin::initialize(const string&, const string&, const string&, const string&, double)[m[K':
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_kinematics/src/aubo_moveit_plugin.cpp:105:88:[m[K [01;35m[Kwarning: [m[K'[01m[Kvirtual void kinematics::KinematicsBase::setValues(const string&, const string&, const string&, const string&, double)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   setValues(robot_description, group_name, base_frame, tip_frame, search_discretization[01;35m[K)[m[K;
+                                                                                        [01;35m[K^[m[K
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_kinematics/include/aubo_kinematics/aubo_moveit_plugin.h:31:0[m[K,
+                 from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_kinematics/src/aubo_moveit_plugin.cpp:14[m[K:
+[01m[K/opt/ros/melodic/include/moveit/kinematics_base/kinematics_base.h:344:31:[m[K [01;36m[Knote: [m[Kdeclared here
+   [[deprecated]] virtual void [01;36m[KsetValues[m[K(const std::string& robot_description, const std::string& group_name,
+                               [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_kinematics/src/aubo_moveit_plugin.cpp:[m[K In member function '[01m[Kvirtual bool aubo_kinematics::AuboKinematicsPlugin::initialize(const string&, const string&, const string&, const string&, double)[m[K':
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_kinematics/src/aubo_moveit_plugin.cpp:105:88:[m[K [01;35m[Kwarning: [m[K'[01m[Kvirtual void kinematics::KinematicsBase::setValues(const string&, const string&, const string&, const string&, double)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   setValues(robot_description, group_name, base_frame, tip_frame, search_discretization[01;35m[K)[m[K;
+                                                                                        [01;35m[K^[m[K
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_kinematics/include/aubo_kinematics/aubo_moveit_plugin.h:31:0[m[K,
+                 from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_kinematics/src/aubo_moveit_plugin.cpp:14[m[K:
+[01m[K/opt/ros/melodic/include/moveit/kinematics_base/kinematics_base.h:344:31:[m[K [01;36m[Knote: [m[Kdeclared here
+   [[deprecated]] virtual void [01;36m[KsetValues[m[K(const std::string& robot_description, const std::string& group_name,
+                               [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_kinematics/src/aubo_moveit_plugin.cpp:[m[K In member function '[01m[Kvirtual bool aubo_kinematics::AuboKinematicsPlugin::initialize(const string&, const string&, const string&, const string&, double)[m[K':
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_kinematics/src/aubo_moveit_plugin.cpp:105:88:[m[K [01;35m[Kwarning: [m[K'[01m[Kvirtual void kinematics::KinematicsBase::setValues(const string&, const string&, const string&, const string&, double)[m[K' is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+   setValues(robot_description, group_name, base_frame, tip_frame, search_discretization[01;35m[K)[m[K;
+                                                                                        [01;35m[K^[m[K
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_kinematics/include/aubo_kinematics/aubo_moveit_plugin.h:31:0[m[K,
+                 from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_kinematics/src/aubo_moveit_plugin.cpp:14[m[K:
+[01m[K/opt/ros/melodic/include/moveit/kinematics_base/kinematics_base.h:344:31:[m[K [01;36m[Knote: [m[Kdeclared here
+   [[deprecated]] virtual void [01;36m[KsetValues[m[K(const std::string& robot_description, const std::string& group_name,
+                               [01;36m[K^~~~~~~~~[m[K
+[ 83%] [32m[1mLinking CXX shared library /home/xurui/double_robot_project/devel/lib/libaubo_i10_moveit_kinematic_plugin.so[0m
+[ 91%] [32m[1mLinking CXX shared library /home/xurui/double_robot_project/devel/lib/libaubo_i3_moveit_kinematic_plugin.so[0m
+[ 91%] Built target aubo_i10_moveit_kinematic_plugin
+[ 91%] Built target aubo_i3_moveit_kinematic_plugin
+[100%] [32m[1mLinking CXX shared library /home/xurui/double_robot_project/devel/lib/libaubo_i5_moveit_kinematic_plugin.so[0m
+[100%] Built target aubo_i5_moveit_kinematic_plugin

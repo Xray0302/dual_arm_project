@@ -1,0 +1,10 @@
+CMake Error at /home/xurui/double_robot_project/devel/share/wrp_sdk/cmake/wrp_sdkConfig.cmake:173 (message):
+  Project 'tracer_base' tried to find library 'wrp_sdk'.  The library is
+  neither a target nor built/installed properly.  Did you compile project
+  'wrp_sdk'? Did you find_package() it before the subdirectory containing its
+  code is included?
+Call Stack (most recent call first):
+  /opt/ros/melodic/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  CMakeLists.txt:12 (find_package)
+
+

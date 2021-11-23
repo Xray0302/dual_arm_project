@@ -1,0 +1,6 @@
+[ 16%] Built target aubo_i10_kinematic
+[ 33%] Built target aubo_i3_kinematic
+[ 50%] Built target aubo_i5_kinematic
+[ 66%] Built target aubo_i10_moveit_kinematic_plugin
+[ 83%] Built target aubo_i3_moveit_kinematic_plugin
+[100%] Built target aubo_i5_moveit_kinematic_plugin

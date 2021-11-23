@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="mobile_dual_arm_body">
+    <xacro:macro name="mobile_dual_arm_body" >
+        <link name="body_base_link">
+            <inertial>
+                <mass value="66.4775979264214" />
+                <origin 
+		  xyz="-0.0106647099446248 -6.5313977031112E-05 0.308490441495682" 
+		  rpy="0 0 0" />
+      		<inertia
+       		  ixx="0.956843293593603"
+        	  ixy="-3.06974892513761E-06"
+        	  ixz="0.00111670948908234"
+        	  iyy="0.705222977834952"
+        	  iyz="-1.62054560099075E-07"
+        	  izz="1.11553460634947" />		
+                <!--<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0" />-->
+            </inertial>
+	    <visual>
+      		<origin
+        	  xyz="0 0 0"
+        	  rpy="0 0 0" />
+               <geometry>
+                    <mesh filename="package://mobile_dual_arm_description/meshes/body_base_link.STL" />
+               </geometry>
+      	       <material
+        	  name="">
+               	  <color
+          	     rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
+      	       </material>
+            </visual>
+<collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mobile_dual_arm_description/meshes/body_base_link.STL" />
+      </geometry>
+    </collision>
+        </link>
+
+        <joint name="${wheel_prefix}_wheel" type="continuous">
+            <!--<origin
+                  xyz="0.14547 0.20835 -0.07424"
+                  rpy="0 1.57 0" />-->
+            <parent link="fl_castor_link"/>
+            <child link="${wheel_prefix}_wheel_link"/>
+             <dynamics damping="0.0" friction="0.0"/>
+            <xacro:insert_block name="joint_pose"/>
+            <axis xyz="0 0 1" rpy="0 0 0" />
+        </joint>
+    </xacro:macro>
+
+</robot>

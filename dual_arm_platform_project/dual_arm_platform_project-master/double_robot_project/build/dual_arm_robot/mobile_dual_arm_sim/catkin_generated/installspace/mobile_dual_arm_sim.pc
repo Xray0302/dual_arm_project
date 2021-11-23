@@ -1,0 +1,8 @@
+prefix=/home/xurui/double_robot_project/install
+
+Name: mobile_dual_arm_sim
+Description: Description of mobile_dual_arm_sim
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

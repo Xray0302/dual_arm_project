@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<!--This does not replace URDF, and is not an extension of URDF.
+    This is a format for representing semantic information about the robot structure.
+    A URDF file must exist for this robot as well, where the joints and the links that are referenced are defined
+-->
+<robot name="mobile_dual_arm">
+    <!--GROUPS: Representation of a set of joints and links. This can be useful for specifying DOF to plan for, defining arms, end effectors, etc-->
+    <!--LINKS: When a link is specified, the parent joint of that link (if it exists) is automatically included-->
+    <!--JOINTS: When a joint is specified, the child link of that joint (which will always exist) is automatically included-->
+    <!--CHAINS: When a chain is specified, all the links along the chain (including endpoints) are included in the group. Additionally, all the joints that are parents to included links are also included. This means that joints along the chain and the parent joint of the base link are included in the group-->
+    <!--SUBGROUPS: Groups can also be formed by referencing to already defined group names-->
+<!-- left_arm_robot -->
+    <group name="left_manipulator_i5">
+        <chain base_link="left_arm_base_link" tip_link="left_arm_wrist3_Link" />
+    </group>
+    <!--GROUP STATES: Purpose: Define a named state for a particular group, in terms of joint values. This is useful to define states like 'folded arms'-->
+    <group_state name="zero" group="left_manipulator_i5">
+        <joint name="left_arm_foreArm_joint" value="0" />
+        <joint name="left_arm_shoulder_joint" value="0" />
+        <joint name="left_arm_upperArm_joint" value="0" />
+        <joint name="left_arm_wrist1_joint" value="0" />
+        <joint name="left_arm_wrist2_joint" value="0" />
+        <joint name="left_arm_wrist3_joint" value="0" />
+    </group_state>
+    <group_state name="home" group="left_manipulator_i5">
+        <joint name="left_arm_foreArm_joint" value="-1.5418" />
+        <joint name="left_arm_shoulder_joint" value="0" />
+        <joint name="left_arm_upperArm_joint" value="0" />
+        <joint name="left_arm_wrist1_joint" value="0" />
+        <joint name="left_arm_wrist2_joint" value="-1.3742" />
+        <joint name="left_arm_wrist3_joint" value="0" />
+    </group_state>
+    <group_state name="left_home" group="left_manipulator_i5">
+        <joint name="left_arm_shoulder_joint" value="1.254270315170288" />
+        <joint name="left_arm_upperArm_joint" value="-1.0837863683700562" />
+        <joint name="left_arm_foreArm_joint" value="1.9078513383865356" />
+        <joint name="left_arm_wrist1_joint" value="1.1188549995422363" />
+        <joint name="left_arm_wrist2_joint" value="0.7137249112129211" />
+        <joint name="left_arm_wrist3_joint" value="0.49702146649360657" />
+    </group_state>
+    <!--VIRTUAL JOINT: Purpose: this element defines a virtual joint between a robot link and an external frame of reference (considered fixed with respect to the robot)-->
+    <virtual_joint name="left_arm_base_vjoint" type="fixed" parent_frame="body_base_link" child_link="left_arm_base_link" />
+    <!--DISABLE COLLISIONS: By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->
+    <disable_collisions link1="left_arm_base_link" link2="body_base_link" reason="Adjacent" />
+    <disable_collisions link1="left_arm_base_link" link2="left_arm_shoulder_Link" reason="Adjacent" />
+    <disable_collisions link1="left_arm_base_link" link2="left_arm_upperArm_Link" reason="Never" />
+    <disable_collisions link1="left_arm_foreArm_Link" link2="left_arm_upperArm_Link" reason="Adjacent" />
+    <disable_collisions link1="left_arm_foreArm_Link" link2="left_arm_wrist1_Link" reason="Adjacent" />
+    <disable_collisions link1="body_base_link" link2="left_arm_shoulder_Link" reason="Never" />
+    <disable_collisions link1="left_arm_shoulder_Link" link2="left_arm_upperArm_Link" reason="Adjacent" />
+    <disable_collisions link1="left_arm_shoulder_Link" link2="left_arm_wrist1_Link" reason="Never" />
+    <disable_collisions link1="left_arm_wrist1_Link" link2="left_arm_wrist2_Link" reason="Adjacent" />
+    <disable_collisions link1="left_arm_wrist1_Link" link2="left_arm_wrist3_Link" reason="Never" />
+    <disable_collisions link1="left_arm_wrist2_Link" link2="left_arm_wrist3_Link" reason="Adjacent" />
+<!-- right_arm_robot-->
+    <group name="right_manipulator_i5">
+        <chain base_link="right_arm_base_link" tip_link="right_arm_wrist3_Link" />
+    </group>
+    <!--GROUP STATES: Purpose: Define a named state for a particular group, in terms of joint values. This is useful to define states like 'folded arms'-->
+    <group_state name="zero" group="right_manipulator_i5">
+        <joint name="right_arm_foreArm_joint" value="0" />
+        <joint name="right_arm_shoulder_joint" value="0" />
+        <joint name="right_arm_upperArm_joint" value="0" />
+        <joint name="right_arm_wrist1_joint" value="0" />
+        <joint name="right_arm_wrist2_joint" value="0" />
+        <joint name="right_arm_wrist3_joint" value="0" />
+    </group_state>
+    <group_state name="home" group="right_manipulator_i5">
+        <joint name="right_arm_foreArm_joint" value="-1.5418" />
+        <joint name="right_arm_shoulder_joint" value="0" />
+        <joint name="right_arm_upperArm_joint" value="0" />
+        <joint name="right_arm_wrist1_joint" value="0" />
+        <joint name="right_arm_wrist2_joint" value="-1.3742" />
+        <joint name="right_arm_wrist3_joint" value="0" />
+    </group_state>
+    <group_state name="right_home" group="right_manipulator_i5">     
+        <joint name="right_arm_shoulder_joint" value="-1.1955277919769287" />
+        <joint name="right_arm_upperArm_joint" value="1.088183045387268" />
+	<joint name="right_arm_foreArm_joint" value="-1.7925245761871338" />
+        <joint name="right_arm_wrist1_joint" value="-1.0456668138504028" />
+        <joint name="right_arm_wrist2_joint" value="-0.6668585538864136" />
+        <joint name="right_arm_wrist3_joint" value="1.268088698387146 " />
+    </group_state>
+    <!--VIRTUAL JOINT: Purpose: this element defines a virtual joint between a robot link and an external frame of reference (considered fixed with respect to the robot)-->
+    <virtual_joint name="right_arm_base_vjoint" type="fixed" parent_frame="body_base_link" child_link="right_arm_base_link" />
+    <!--DISABLE COLLISIONS: By default it is assumed that any link of the robot could potentially come into collision with any other link in the robot. This tag disables collision checking between a specified pair of links. -->
+    <disable_collisions link1="right_arm_base_link" link2="body_base_link" reason="Adjacent" />
+    <disable_collisions link1="right_arm_base_link" link2="right_arm_shoulder_Link" reason="Adjacent" />
+    <disable_collisions link1="right_arm_base_link" link2="right_arm_upperArm_Link" reason="Never" />
+    <disable_collisions link1="right_arm_foreArm_Link" link2="right_arm_upperArm_Link" reason="Adjacent" />
+    <disable_collisions link1="right_arm_foreArm_Link" link2="right_arm_wrist1_Link" reason="Adjacent" />
+    <disable_collisions link1="body_base_link" link2="right_arm_shoulder_Link" reason="Never" />
+    <disable_collisions link1="right_arm_shoulder_Link" link2="right_arm_upperArm_Link" reason="Adjacent" />
+    <disable_collisions link1="right_arm_shoulder_Link" link2="right_arm_wrist1_Link" reason="Never" />
+    <disable_collisions link1="right_arm_wrist1_Link" link2="right_arm_wrist2_Link" reason="Adjacent" />
+    <disable_collisions link1="right_arm_wrist1_Link" link2="right_arm_wrist3_Link" reason="Never" />
+    <disable_collisions link1="right_arm_wrist2_Link" link2="right_arm_wrist3_Link" reason="Adjacent" />
+
+</robot>
