@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="mobile_dual_arm">
+  <link
+    name="body_base_link">
+    <inertial>
+      <origin
+        xyz="-0.00727317613555882 0.000177642281680983 0.348737018525742"
+        rpy="0 0 0" />
+      <mass
+        value="66.8179754832155" />
+      <inertia
+        ixx="0.864769333517005"
+        ixy="8.0431227004378E-11"
+        ixz="8.52015709303559E-10"
+        iyy="0.693625288679801"
+        iyz="1.14906238170287E-10"
+        izz="0.958343996689488" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mobile_dual_arm_description/meshes/body_base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.898039215686275 0.917647058823529 0.929411764705882 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://mobile_dual_arm_description/meshes/body_base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+
+  <link
+    name="body_right_arm_base_link">
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+    </visual>
+  </link>
+
+  <joint
+    name="body_right_arm_base_joint"
+    type="fixed">
+    <origin
+      xyz="-0.05 -0.17283 0.70344"
+      rpy="0.7854 0 0" />
+    <parent
+      link="body_base_link" />
+    <child
+      link="body_right_arm_base_link" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="0"
+      velocity="0" />
+  </joint>
+<!--
+  <link
+    name="right_arm_base_link">
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+    </visual>
+  </link>
+
+  <joint
+    name="right_arm_base_joint"
+    type="fixed">
+    <origin
+      xyz="0.00011627 0.00011627 0"
+      rpy="0 0 0" />
+    <parent
+      link="body_right_arm_base_link" />
+    <child
+      link="right_arm_base_link" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="0"
+      velocity="0" />
+  </joint>
+-->
+
+  <link
+    name="body_left_arm_base_link">
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+    </visual>
+  </link>
+
+  <joint
+    name="body_left_arm_base_joint"
+    type="fixed">
+    <origin
+      xyz="-0.049884 0.1744 0.70352"
+      rpy="-0.7854 0 0" />
+    <parent
+      link="body_base_link" />
+    <child
+      link="body_left_arm_base_link" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="0"
+      velocity="0" />
+  </joint>
+
+<!--
+  <link
+    name="left_arm_base_link">
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+    </visual>
+  </link>
+
+  <joint
+    name="left_arm_base_joint"
+    type="fixed">
+    <origin
+      xyz="0 0 -0.0005"
+      rpy="0 0 0" />
+    <parent
+      link="body_left_arm_base_link" />
+    <child
+      link="left_arm_base_link" />
+    <axis
+      xyz="0 0 0" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="0"
+      velocity="0" />
+  </joint>
+-->
+</robot>

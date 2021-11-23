@@ -1,0 +1,17 @@
+[  0%] Built target _tracer_msgs_generate_messages_check_deps_TracerLightCmd
+[  0%] Built target _tracer_msgs_generate_messages_check_deps_UartTracerStatus
+[  0%] Built target _tracer_msgs_generate_messages_check_deps_TracerStatus
+[  0%] Built target _tracer_msgs_generate_messages_check_deps_TracerLightState
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _tracer_msgs_generate_messages_check_deps_UartTracerMotorState
+[  0%] Built target _tracer_msgs_generate_messages_check_deps_TracerMotorState
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[ 18%] Built target tracer_msgs_generate_messages_nodejs
+[ 40%] Built target tracer_msgs_generate_messages_py
+[ 59%] Built target tracer_msgs_generate_messages_lisp
+[ 78%] Built target tracer_msgs_generate_messages_cpp
+[100%] Built target tracer_msgs_generate_messages_eus
+[100%] Built target tracer_msgs_generate_messages

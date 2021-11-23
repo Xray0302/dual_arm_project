@@ -1,0 +1,21 @@
+[  0%] Built target _aubo_msgs_generate_messages_check_deps_SetPayload
+[  0%] Built target _aubo_msgs_generate_messages_check_deps_Digital
+[  0%] Built target _aubo_msgs_generate_messages_check_deps_Analog
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _aubo_msgs_generate_messages_check_deps_SetIO
+[  0%] Built target _aubo_msgs_generate_messages_check_deps_GoalPoint
+[  0%] Built target _aubo_msgs_generate_messages_check_deps_TraPoint
+[  0%] Built target _aubo_msgs_generate_messages_check_deps_IOState
+[  0%] Built target _aubo_msgs_generate_messages_check_deps_GetIK
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target _aubo_msgs_generate_messages_check_deps_JointPos
+[  0%] Built target _aubo_msgs_generate_messages_check_deps_GetFK
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[ 18%] Built target aubo_msgs_generate_messages_nodejs
+[ 39%] Built target aubo_msgs_generate_messages_eus
+[ 58%] Built target aubo_msgs_generate_messages_lisp
+[ 98%] Built target aubo_msgs_generate_messages_cpp
+[100%] Built target aubo_msgs_generate_messages_py
+[100%] Built target aubo_msgs_generate_messages

@@ -1,0 +1,6 @@
+[ 16%] Built target right_aubo_driver
+[ 33%] Built target left_aubo_driver
+[ 50%] Built target testAuboAPI
+[ 66%] Built target testIO
+[ 83%] Built target aubo_driver
+[100%] Built target aubo_gazebo_driver

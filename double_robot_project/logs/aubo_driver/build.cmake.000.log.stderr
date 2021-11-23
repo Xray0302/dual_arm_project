@@ -1,0 +1,27 @@
+### /home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/3rdparty/aubo_dependents/libconfig/linux_x64/inc;/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/3rdparty/aubo_dependents/log4cplus/linux_x64/inc;/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc;/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/3rdparty/aubo_dependents/robotController/Header;/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/3rdparty/aubo_dependents/robotSDK/inc;/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/3rdparty/aubo_dependents/otg/inc ######
+CMake Warning (dev) at CMakeLists.txt:94 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "aubo_msgs_gencpp" of target "testAuboAPI" does not
+  exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:93 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "aubo_msgs_gencpp" of target "testIO" does not exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:92 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "aubo_msgs_gencpp" of target "aubo_driver" does not
+  exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+

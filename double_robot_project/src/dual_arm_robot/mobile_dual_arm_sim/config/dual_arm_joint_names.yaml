@@ -1,0 +1,4 @@
+left_arm_controller_joint_names: [left_arm_shoulder_joint, left_arm_upperArm_joint, left_arm_foreArm_joint, left_arm_wrist1_joint, left_arm_wrist2_joint, left_arm_wrist3_joint]
+left_arm_robot_name: aubo_i5
+right_arm_controller_joint_names: [right_arm_shoulder_joint, right_arm_upperArm_joint, right_arm_foreArm_joint, right_arm_wrist1_joint, right_arm_wrist2_joint, right_arm_wrist3_joint]
+right_arm_robot_name: aubo_i5

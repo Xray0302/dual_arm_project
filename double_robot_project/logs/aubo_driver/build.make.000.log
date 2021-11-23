@@ -1,0 +1,340 @@
+[35m[1mScanning dependencies of target right_aubo_driver[0m
+[35m[1mScanning dependencies of target left_aubo_driver[0m
+[  8%] [32mBuilding CXX object CMakeFiles/left_aubo_driver.dir/src/left_driver_node.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/right_aubo_driver.dir/src/right_driver_node.cpp.o[0m
+[35m[1mScanning dependencies of target testAuboAPI[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/testAuboAPI.dir/src/testAuboAPI.cpp.o[0m
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/right_driver_node.cpp:32:0[m[K:
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include/aubo_driver/aubo_driver.h:[m[K In constructor '[01m[Kaubo_driver::AuboDriver::AuboDriver(int)[m[K':
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include/aubo_driver/aubo_driver.h:177:20:[m[K [01;35m[Kwarning: [m[K'[01m[Kaubo_driver::AuboDriver::io_flag_delay_[m[K' will be initialized after [[01;35m[K-Wreorder[m[K]
+             double [01;35m[Kio_flag_delay_[m[K;
+                    [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include/aubo_driver/aubo_driver.h:155:18:[m[K [01;35m[Kwarning: [m[K  '[01m[Kbool aubo_driver::AuboDriver::data_recieved_[m[K' [[01;35m[K-Wreorder[m[K]
+             bool [01;35m[Kdata_recieved_[m[K;
+                  [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/right_driver_node.cpp:35:0[m[K:
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/right_aubo_driver.cpp:38:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+ [01;35m[KAuboDriver[m[K::AuboDriver(int num = 0):buffer_size_(400),io_flag_delay_(0.02),data_recieved_(false),data_count_(0),real_robot_exist_(false),emergency_stopped_(false),protective_stopped_(false),normal_stopped_(false),
+ [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/right_driver_node.cpp:32:0[m[K:
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include/aubo_driver/aubo_driver.h:157:18:[m[K [01;35m[Kwarning: [m[K'[01m[Kaubo_driver::AuboDriver::real_robot_exist_[m[K' will be initialized after [[01;35m[K-Wreorder[m[K]
+             bool [01;35m[Kreal_robot_exist_[m[K;
+                  [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include/aubo_driver/aubo_driver.h:152:18:[m[K [01;35m[Kwarning: [m[K  '[01m[Kbool aubo_driver::AuboDriver::emergency_stopped_[m[K' [[01;35m[K-Wreorder[m[K]
+             bool [01;35m[Kemergency_stopped_[m[K;
+                  [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/right_driver_node.cpp:35:0[m[K:
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/right_aubo_driver.cpp:38:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+ [01;35m[KAuboDriver[m[K::AuboDriver(int num = 0):buffer_size_(400),io_flag_delay_(0.02),data_recieved_(false),data_count_(0),real_robot_exist_(false),emergency_stopped_(false),protective_stopped_(false),normal_stopped_(false),
+ [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/right_driver_node.cpp:32:0[m[K:
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include/aubo_driver/aubo_driver.h:180:17:[m[K [01;35m[Kwarning: [m[K'[01m[Kaubo_driver::AuboDriver::control_mode_[m[K' will be initialized after [[01;35m[K-Wreorder[m[K]
+             int [01;35m[Kcontrol_mode_[m[K;
+                 [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include/aubo_driver/aubo_driver.h:179:17:[m[K [01;35m[Kwarning: [m[K  '[01m[Kint aubo_driver::AuboDriver::rib_buffer_size_[m[K' [[01;35m[K-Wreorder[m[K]
+             int [01;35m[Krib_buffer_size_[m[K;
+                 [01;35m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/right_driver_node.cpp:35:0[m[K:
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/right_aubo_driver.cpp:38:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+ [01;35m[KAuboDriver[m[K::AuboDriver(int num = 0):buffer_size_(400),io_flag_delay_(0.02),data_recieved_(false),data_count_(0),real_robot_exist_(false),emergency_stopped_(false),protective_stopped_(false),normal_stopped_(false),
+ [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/right_driver_node.cpp:32:0[m[K:
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include/aubo_driver/aubo_driver.h:179:17:[m[K [01;35m[Kwarning: [m[K'[01m[Kaubo_driver::AuboDriver::rib_buffer_size_[m[K' will be initialized after [[01;35m[K-Wreorder[m[K]
+             int [01;35m[Krib_buffer_size_[m[K;
+                 [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include/aubo_driver/aubo_driver.h:162:34:[m[K [01;35m[Kwarning: [m[K  '[01m[KJointTrajectoryInput aubo_driver::AuboDriver::jti[m[K' [[01;35m[K-Wreorder[m[K]
+             JointTrajectoryInput [01;35m[Kjti[m[K;
+                                  [01;35m[K^~~[m[K
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/right_driver_node.cpp:35:0[m[K:
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/right_aubo_driver.cpp:38:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+ [01;35m[KAuboDriver[m[K::AuboDriver(int num = 0):buffer_size_(400),io_flag_delay_(0.02),data_recieved_(false),data_count_(0),real_robot_exist_(false),emergency_stopped_(false),protective_stopped_(false),normal_stopped_(false),
+ [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/right_aubo_driver.cpp:[m[K In member function '[01m[Kbool aubo_driver::AuboDriver::setRobotJointsByMoveIt()[m[K':
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/right_aubo_driver.cpp:287:22:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kupdate[m[K' [[01;35m[K-Wunused-variable[m[K]
+                 bool [01;35m[Kupdate[m[K = otgVelocityModeParameterUpdate(jti);
+                      [01;35m[K^~~~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/right_aubo_driver.cpp:257:9:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Kret[m[K' set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+     int [01;35m[Kret[m[K = 0;
+         [01;35m[K^~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/right_aubo_driver.cpp:324:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/right_aubo_driver.cpp:[m[K In member function '[01m[Kvoid aubo_driver::AuboDriver::moveItPosCallback(const ConstPtr&)[m[K':
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/right_aubo_driver.cpp:391:34:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+             if([01;35m[Kbuf_queue_.size() > buffer_size_[m[K && !start_move_)
+                [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/right_aubo_driver.cpp:[m[K In member function '[01m[Kvoid aubo_driver::AuboDriver::teachCallback(const ConstPtr&)[m[K':
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/right_aubo_driver.cpp:455:16:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[KteachMode[m[K' [[01;35m[K-Wunused-variable[m[K]
+         double [01;35m[KteachMode[m[K = msg->data[1];
+                [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/right_aubo_driver.cpp:[m[K In member function '[01m[Kvoid aubo_driver::AuboDriver::publishIOMsg()[m[K':
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/right_aubo_driver.cpp:655:17:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kaddr[m[K' [[01;35m[K-Wunused-variable[m[K]
+             int [01;35m[Kaddr[m[K = status_vector_out[i].ioAddr;
+                 [01;35m[K^~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/right_aubo_driver.cpp:621:9:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Kret[m[K' set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+     int [01;35m[Kret[m[K = 0;
+         [01;35m[K^~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/right_aubo_driver.cpp:[m[K In member function '[01m[Kbool aubo_driver::AuboDriver::getFK(aubo_msgs::GetFKRequest&, aubo_msgs::GetFKResponse&)[m[K':
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/right_aubo_driver.cpp:816:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/right_aubo_driver.cpp:[m[K In member function '[01m[Kbool aubo_driver::AuboDriver::getIK(aubo_msgs::GetIKRequest&, aubo_msgs::GetIKResponse&)[m[K':
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/right_aubo_driver.cpp:833:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/left_driver_node.cpp:32:0[m[K:
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include/aubo_driver/aubo_driver.h:[m[K In constructor '[01m[Kaubo_driver::AuboDriver::AuboDriver(int)[m[K':
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include/aubo_driver/aubo_driver.h:177:20:[m[K [01;35m[Kwarning: [m[K'[01m[Kaubo_driver::AuboDriver::io_flag_delay_[m[K' will be initialized after [[01;35m[K-Wreorder[m[K]
+             double [01;35m[Kio_flag_delay_[m[K;
+                    [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include/aubo_driver/aubo_driver.h:155:18:[m[K [01;35m[Kwarning: [m[K  '[01m[Kbool aubo_driver::AuboDriver::data_recieved_[m[K' [[01;35m[K-Wreorder[m[K]
+             bool [01;35m[Kdata_recieved_[m[K;
+                  [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/left_driver_node.cpp:35:0[m[K:
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/left_aubo_driver.cpp:38:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+ [01;35m[KAuboDriver[m[K::AuboDriver(int num = 0):buffer_size_(400),io_flag_delay_(0.02),data_recieved_(false),data_count_(0),real_robot_exist_(false),emergency_stopped_(false),protective_stopped_(false),normal_stopped_(false),
+ [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/left_driver_node.cpp:32:0[m[K:
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include/aubo_driver/aubo_driver.h:157:18:[m[K [01;35m[Kwarning: [m[K'[01m[Kaubo_driver::AuboDriver::real_robot_exist_[m[K' will be initialized after [[01;35m[K-Wreorder[m[K]
+             bool [01;35m[Kreal_robot_exist_[m[K;
+                  [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include/aubo_driver/aubo_driver.h:152:18:[m[K [01;35m[Kwarning: [m[K  '[01m[Kbool aubo_driver::AuboDriver::emergency_stopped_[m[K' [[01;35m[K-Wreorder[m[K]
+             bool [01;35m[Kemergency_stopped_[m[K;
+                  [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/left_driver_node.cpp:35:0[m[K:
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/left_aubo_driver.cpp:38:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+ [01;35m[KAuboDriver[m[K::AuboDriver(int num = 0):buffer_size_(400),io_flag_delay_(0.02),data_recieved_(false),data_count_(0),real_robot_exist_(false),emergency_stopped_(false),protective_stopped_(false),normal_stopped_(false),
+ [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/left_driver_node.cpp:32:0[m[K:
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include/aubo_driver/aubo_driver.h:180:17:[m[K [01;35m[Kwarning: [m[K'[01m[Kaubo_driver::AuboDriver::control_mode_[m[K' will be initialized after [[01;35m[K-Wreorder[m[K]
+             int [01;35m[Kcontrol_mode_[m[K;
+                 [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include/aubo_driver/aubo_driver.h:179:17:[m[K [01;35m[Kwarning: [m[K  '[01m[Kint aubo_driver::AuboDriver::rib_buffer_size_[m[K' [[01;35m[K-Wreorder[m[K]
+             int [01;35m[Krib_buffer_size_[m[K;
+                 [01;35m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/left_driver_node.cpp:35:0[m[K:
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/left_aubo_driver.cpp:38:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+ [01;35m[KAuboDriver[m[K::AuboDriver(int num = 0):buffer_size_(400),io_flag_delay_(0.02),data_recieved_(false),data_count_(0),real_robot_exist_(false),emergency_stopped_(false),protective_stopped_(false),normal_stopped_(false),
+ [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/left_driver_node.cpp:32:0[m[K:
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include/aubo_driver/aubo_driver.h:179:17:[m[K [01;35m[Kwarning: [m[K'[01m[Kaubo_driver::AuboDriver::rib_buffer_size_[m[K' will be initialized after [[01;35m[K-Wreorder[m[K]
+             int [01;35m[Krib_buffer_size_[m[K;
+                 [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include/aubo_driver/aubo_driver.h:162:34:[m[K [01;35m[Kwarning: [m[K  '[01m[KJointTrajectoryInput aubo_driver::AuboDriver::jti[m[K' [[01;35m[K-Wreorder[m[K]
+             JointTrajectoryInput [01;35m[Kjti[m[K;
+                                  [01;35m[K^~~[m[K
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/left_driver_node.cpp:35:0[m[K:
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/left_aubo_driver.cpp:38:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+ [01;35m[KAuboDriver[m[K::AuboDriver(int num = 0):buffer_size_(400),io_flag_delay_(0.02),data_recieved_(false),data_count_(0),real_robot_exist_(false),emergency_stopped_(false),protective_stopped_(false),normal_stopped_(false),
+ [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/left_aubo_driver.cpp:[m[K In member function '[01m[Kbool aubo_driver::AuboDriver::setRobotJointsByMoveIt()[m[K':
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/left_aubo_driver.cpp:287:22:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kupdate[m[K' [[01;35m[K-Wunused-variable[m[K]
+                 bool [01;35m[Kupdate[m[K = otgVelocityModeParameterUpdate(jti);
+                      [01;35m[K^~~~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/left_aubo_driver.cpp:257:9:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Kret[m[K' set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+     int [01;35m[Kret[m[K = 0;
+         [01;35m[K^~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/left_aubo_driver.cpp:324:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/left_aubo_driver.cpp:[m[K In member function '[01m[Kvoid aubo_driver::AuboDriver::moveItPosCallback(const ConstPtr&)[m[K':
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/left_aubo_driver.cpp:391:34:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+             if([01;35m[Kbuf_queue_.size() > buffer_size_[m[K && !start_move_)
+                [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/left_aubo_driver.cpp:[m[K In member function '[01m[Kvoid aubo_driver::AuboDriver::teachCallback(const ConstPtr&)[m[K':
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/left_aubo_driver.cpp:455:16:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[KteachMode[m[K' [[01;35m[K-Wunused-variable[m[K]
+         double [01;35m[KteachMode[m[K = msg->data[1];
+                [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/left_aubo_driver.cpp:[m[K In member function '[01m[Kvoid aubo_driver::AuboDriver::publishIOMsg()[m[K':
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/left_aubo_driver.cpp:655:17:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kaddr[m[K' [[01;35m[K-Wunused-variable[m[K]
+             int [01;35m[Kaddr[m[K = status_vector_out[i].ioAddr;
+                 [01;35m[K^~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/left_aubo_driver.cpp:621:9:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Kret[m[K' set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+     int [01;35m[Kret[m[K = 0;
+         [01;35m[K^~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/left_aubo_driver.cpp:[m[K In member function '[01m[Kbool aubo_driver::AuboDriver::getFK(aubo_msgs::GetFKRequest&, aubo_msgs::GetFKResponse&)[m[K':
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/left_aubo_driver.cpp:816:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/left_aubo_driver.cpp:[m[K In member function '[01m[Kbool aubo_driver::AuboDriver::getIK(aubo_msgs::GetIKRequest&, aubo_msgs::GetIKResponse&)[m[K':
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/left_aubo_driver.cpp:833:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/testAuboAPI.cpp:32:0[m[K:
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include/aubo_driver/aubo_driver.h:[m[K In constructor '[01m[Kaubo_driver::AuboDriver::AuboDriver(int)[m[K':
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include/aubo_driver/aubo_driver.h:177:20:[m[K [01;35m[Kwarning: [m[K'[01m[Kaubo_driver::AuboDriver::io_flag_delay_[m[K' will be initialized after [[01;35m[K-Wreorder[m[K]
+             double [01;35m[Kio_flag_delay_[m[K;
+                    [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include/aubo_driver/aubo_driver.h:155:18:[m[K [01;35m[Kwarning: [m[K  '[01m[Kbool aubo_driver::AuboDriver::data_recieved_[m[K' [[01;35m[K-Wreorder[m[K]
+             bool [01;35m[Kdata_recieved_[m[K;
+                  [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/testAuboAPI.cpp:33:0[m[K:
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:38:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+ [01;35m[KAuboDriver[m[K::AuboDriver(int num = 0):buffer_size_(400),io_flag_delay_(0.02),data_recieved_(false),data_count_(0),real_robot_exist_(false),emergency_stopped_(false),protective_stopped_(false),normal_stopped_(false),
+ [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/testAuboAPI.cpp:32:0[m[K:
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include/aubo_driver/aubo_driver.h:157:18:[m[K [01;35m[Kwarning: [m[K'[01m[Kaubo_driver::AuboDriver::real_robot_exist_[m[K' will be initialized after [[01;35m[K-Wreorder[m[K]
+             bool [01;35m[Kreal_robot_exist_[m[K;
+                  [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include/aubo_driver/aubo_driver.h:152:18:[m[K [01;35m[Kwarning: [m[K  '[01m[Kbool aubo_driver::AuboDriver::emergency_stopped_[m[K' [[01;35m[K-Wreorder[m[K]
+             bool [01;35m[Kemergency_stopped_[m[K;
+                  [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/testAuboAPI.cpp:33:0[m[K:
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:38:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+ [01;35m[KAuboDriver[m[K::AuboDriver(int num = 0):buffer_size_(400),io_flag_delay_(0.02),data_recieved_(false),data_count_(0),real_robot_exist_(false),emergency_stopped_(false),protective_stopped_(false),normal_stopped_(false),
+ [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/testAuboAPI.cpp:32:0[m[K:
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include/aubo_driver/aubo_driver.h:180:17:[m[K [01;35m[Kwarning: [m[K'[01m[Kaubo_driver::AuboDriver::control_mode_[m[K' will be initialized after [[01;35m[K-Wreorder[m[K]
+             int [01;35m[Kcontrol_mode_[m[K;
+                 [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include/aubo_driver/aubo_driver.h:179:17:[m[K [01;35m[Kwarning: [m[K  '[01m[Kint aubo_driver::AuboDriver::rib_buffer_size_[m[K' [[01;35m[K-Wreorder[m[K]
+             int [01;35m[Krib_buffer_size_[m[K;
+                 [01;35m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/testAuboAPI.cpp:33:0[m[K:
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:38:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+ [01;35m[KAuboDriver[m[K::AuboDriver(int num = 0):buffer_size_(400),io_flag_delay_(0.02),data_recieved_(false),data_count_(0),real_robot_exist_(false),emergency_stopped_(false),protective_stopped_(false),normal_stopped_(false),
+ [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/testAuboAPI.cpp:32:0[m[K:
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include/aubo_driver/aubo_driver.h:179:17:[m[K [01;35m[Kwarning: [m[K'[01m[Kaubo_driver::AuboDriver::rib_buffer_size_[m[K' will be initialized after [[01;35m[K-Wreorder[m[K]
+             int [01;35m[Krib_buffer_size_[m[K;
+                 [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include/aubo_driver/aubo_driver.h:162:34:[m[K [01;35m[Kwarning: [m[K  '[01m[KJointTrajectoryInput aubo_driver::AuboDriver::jti[m[K' [[01;35m[K-Wreorder[m[K]
+             JointTrajectoryInput [01;35m[Kjti[m[K;
+                                  [01;35m[K^~~[m[K
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/testAuboAPI.cpp:33:0[m[K:
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:38:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+ [01;35m[KAuboDriver[m[K::AuboDriver(int num = 0):buffer_size_(400),io_flag_delay_(0.02),data_recieved_(false),data_count_(0),real_robot_exist_(false),emergency_stopped_(false),protective_stopped_(false),normal_stopped_(false),
+ [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:[m[K In member function '[01m[Kbool aubo_driver::AuboDriver::setRobotJointsByMoveIt()[m[K':
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:287:22:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kupdate[m[K' [[01;35m[K-Wunused-variable[m[K]
+                 bool [01;35m[Kupdate[m[K = otgVelocityModeParameterUpdate(jti);
+                      [01;35m[K^~~~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:257:9:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Kret[m[K' set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+     int [01;35m[Kret[m[K = 0;
+         [01;35m[K^~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:324:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:[m[K In member function '[01m[Kvoid aubo_driver::AuboDriver::moveItPosCallback(const ConstPtr&)[m[K':
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:391:34:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+             if([01;35m[Kbuf_queue_.size() > buffer_size_[m[K && !start_move_)
+                [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:[m[K In member function '[01m[Kvoid aubo_driver::AuboDriver::teachCallback(const ConstPtr&)[m[K':
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:455:16:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[KteachMode[m[K' [[01;35m[K-Wunused-variable[m[K]
+         double [01;35m[KteachMode[m[K = msg->data[1];
+                [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:[m[K In member function '[01m[Kvoid aubo_driver::AuboDriver::publishIOMsg()[m[K':
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:655:17:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kaddr[m[K' [[01;35m[K-Wunused-variable[m[K]
+             int [01;35m[Kaddr[m[K = status_vector_out[i].ioAddr;
+                 [01;35m[K^~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:621:9:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Kret[m[K' set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+     int [01;35m[Kret[m[K = 0;
+         [01;35m[K^~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:[m[K In member function '[01m[Kbool aubo_driver::AuboDriver::getFK(aubo_msgs::GetFKRequest&, aubo_msgs::GetFKResponse&)[m[K':
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:816:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:[m[K In member function '[01m[Kbool aubo_driver::AuboDriver::getIK(aubo_msgs::GetIKRequest&, aubo_msgs::GetIKResponse&)[m[K':
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:833:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+[ 33%] [32m[1mLinking CXX executable /home/xurui/double_robot_project/devel/lib/aubo_driver/right_aubo_driver[0m
+[ 41%] [32m[1mLinking CXX executable /home/xurui/double_robot_project/devel/lib/aubo_driver/left_aubo_driver[0m
+[35m[1mScanning dependencies of target testIO[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/testIO.dir/src/testIO.cpp.o[0m
+[ 58%] [32m[1mLinking CXX executable /home/xurui/double_robot_project/devel/lib/aubo_driver/testAuboAPI[0m
+[ 58%] Built target testAuboAPI
+[ 58%] Built target left_aubo_driver
+[35m[1mScanning dependencies of target aubo_driver[0m
+[ 58%] Built target right_aubo_driver
+[35m[1mScanning dependencies of target aubo_gazebo_driver[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/aubo_driver.dir/src/driver_node.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/aubo_gazebo_driver.dir/src/aubo_gazebo_driver.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable /home/xurui/double_robot_project/devel/lib/aubo_driver/testIO[0m
+[ 83%] Built target testIO
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_gazebo_driver.cpp:[m[K In function '[01m[Kint main(int, char**)[m[K':
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_gazebo_driver.cpp:23:36:[m[K [01;35m[Kwarning: [m[K'[01m[Kmemset[m[K' used with length equal to number of elements without multiplication by element size [[01;35m[K-Wmemset-elt-size[m[K]
+     memset(joint_states,0.0,ARM_DOF[01;35m[K)[m[K;
+                                    [01;35m[K^[m[K
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/driver_node.cpp:32:0[m[K:
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include/aubo_driver/aubo_driver.h:[m[K In constructor '[01m[Kaubo_driver::AuboDriver::AuboDriver(int)[m[K':
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include/aubo_driver/aubo_driver.h:177:20:[m[K [01;35m[Kwarning: [m[K'[01m[Kaubo_driver::AuboDriver::io_flag_delay_[m[K' will be initialized after [[01;35m[K-Wreorder[m[K]
+             double [01;35m[Kio_flag_delay_[m[K;
+                    [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include/aubo_driver/aubo_driver.h:155:18:[m[K [01;35m[Kwarning: [m[K  '[01m[Kbool aubo_driver::AuboDriver::data_recieved_[m[K' [[01;35m[K-Wreorder[m[K]
+             bool [01;35m[Kdata_recieved_[m[K;
+                  [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/driver_node.cpp:35:0[m[K:
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:38:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+ [01;35m[KAuboDriver[m[K::AuboDriver(int num = 0):buffer_size_(400),io_flag_delay_(0.02),data_recieved_(false),data_count_(0),real_robot_exist_(false),emergency_stopped_(false),protective_stopped_(false),normal_stopped_(false),
+ [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/driver_node.cpp:32:0[m[K:
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include/aubo_driver/aubo_driver.h:157:18:[m[K [01;35m[Kwarning: [m[K'[01m[Kaubo_driver::AuboDriver::real_robot_exist_[m[K' will be initialized after [[01;35m[K-Wreorder[m[K]
+             bool [01;35m[Kreal_robot_exist_[m[K;
+                  [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include/aubo_driver/aubo_driver.h:152:18:[m[K [01;35m[Kwarning: [m[K  '[01m[Kbool aubo_driver::AuboDriver::emergency_stopped_[m[K' [[01;35m[K-Wreorder[m[K]
+             bool [01;35m[Kemergency_stopped_[m[K;
+                  [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/driver_node.cpp:35:0[m[K:
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:38:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+ [01;35m[KAuboDriver[m[K::AuboDriver(int num = 0):buffer_size_(400),io_flag_delay_(0.02),data_recieved_(false),data_count_(0),real_robot_exist_(false),emergency_stopped_(false),protective_stopped_(false),normal_stopped_(false),
+ [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/driver_node.cpp:32:0[m[K:
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include/aubo_driver/aubo_driver.h:180:17:[m[K [01;35m[Kwarning: [m[K'[01m[Kaubo_driver::AuboDriver::control_mode_[m[K' will be initialized after [[01;35m[K-Wreorder[m[K]
+             int [01;35m[Kcontrol_mode_[m[K;
+                 [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include/aubo_driver/aubo_driver.h:179:17:[m[K [01;35m[Kwarning: [m[K  '[01m[Kint aubo_driver::AuboDriver::rib_buffer_size_[m[K' [[01;35m[K-Wreorder[m[K]
+             int [01;35m[Krib_buffer_size_[m[K;
+                 [01;35m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/driver_node.cpp:35:0[m[K:
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:38:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+ [01;35m[KAuboDriver[m[K::AuboDriver(int num = 0):buffer_size_(400),io_flag_delay_(0.02),data_recieved_(false),data_count_(0),real_robot_exist_(false),emergency_stopped_(false),protective_stopped_(false),normal_stopped_(false),
+ [01;35m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/driver_node.cpp:32:0[m[K:
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include/aubo_driver/aubo_driver.h:179:17:[m[K [01;35m[Kwarning: [m[K'[01m[Kaubo_driver::AuboDriver::rib_buffer_size_[m[K' will be initialized after [[01;35m[K-Wreorder[m[K]
+             int [01;35m[Krib_buffer_size_[m[K;
+                 [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/include/aubo_driver/aubo_driver.h:162:34:[m[K [01;35m[Kwarning: [m[K  '[01m[KJointTrajectoryInput aubo_driver::AuboDriver::jti[m[K' [[01;35m[K-Wreorder[m[K]
+             JointTrajectoryInput [01;35m[Kjti[m[K;
+                                  [01;35m[K^~~[m[K
+In file included from [01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/driver_node.cpp:35:0[m[K:
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:38:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+ [01;35m[KAuboDriver[m[K::AuboDriver(int num = 0):buffer_size_(400),io_flag_delay_(0.02),data_recieved_(false),data_count_(0),real_robot_exist_(false),emergency_stopped_(false),protective_stopped_(false),normal_stopped_(false),
+ [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:[m[K In member function '[01m[Kbool aubo_driver::AuboDriver::setRobotJointsByMoveIt()[m[K':
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:287:22:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kupdate[m[K' [[01;35m[K-Wunused-variable[m[K]
+                 bool [01;35m[Kupdate[m[K = otgVelocityModeParameterUpdate(jti);
+                      [01;35m[K^~~~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:257:9:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Kret[m[K' set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+     int [01;35m[Kret[m[K = 0;
+         [01;35m[K^~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:324:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:[m[K In member function '[01m[Kvoid aubo_driver::AuboDriver::moveItPosCallback(const ConstPtr&)[m[K':
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:391:34:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+             if([01;35m[Kbuf_queue_.size() > buffer_size_[m[K && !start_move_)
+                [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:[m[K In member function '[01m[Kvoid aubo_driver::AuboDriver::teachCallback(const ConstPtr&)[m[K':
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:455:16:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[KteachMode[m[K' [[01;35m[K-Wunused-variable[m[K]
+         double [01;35m[KteachMode[m[K = msg->data[1];
+                [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:[m[K In member function '[01m[Kvoid aubo_driver::AuboDriver::publishIOMsg()[m[K':
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:655:17:[m[K [01;35m[Kwarning: [m[Kunused variable '[01m[Kaddr[m[K' [[01;35m[K-Wunused-variable[m[K]
+             int [01;35m[Kaddr[m[K = status_vector_out[i].ioAddr;
+                 [01;35m[K^~~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:621:9:[m[K [01;35m[Kwarning: [m[Kvariable '[01m[Kret[m[K' set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+     int [01;35m[Kret[m[K = 0;
+         [01;35m[K^~~[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:[m[K In member function '[01m[Kbool aubo_driver::AuboDriver::getFK(aubo_msgs::GetFKRequest&, aubo_msgs::GetFKResponse&)[m[K':
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:816:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:[m[K In member function '[01m[Kbool aubo_driver::AuboDriver::getIK(aubo_msgs::GetIKRequest&, aubo_msgs::GetIKResponse&)[m[K':
+[01m[K/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/src/aubo_driver.cpp:833:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+ [01;35m[K}[m[K
+ [01;35m[K^[m[K
+[ 91%] [32m[1mLinking CXX executable /home/xurui/double_robot_project/devel/lib/aubo_driver/aubo_gazebo_driver[0m
+[ 91%] Built target aubo_gazebo_driver
+[100%] [32m[1mLinking CXX executable /home/xurui/double_robot_project/devel/lib/aubo_driver/aubo_driver[0m
+[100%] Built target aubo_driver

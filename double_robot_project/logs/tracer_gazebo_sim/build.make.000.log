@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target tracer_gazebo[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/tracer_gazebo.dir/src/tracer_skid_steer.cpp.o[0m
+[ 50%] [32m[1mLinking CXX static library /home/xurui/double_robot_project/devel/lib/libtracer_gazebo.a[0m
+[ 50%] Built target tracer_gazebo
+[35m[1mScanning dependencies of target tracer_skid_steer_controller[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/tracer_skid_steer_controller.dir/src/tracer_skid_steer_controller.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/xurui/double_robot_project/devel/lib/tracer_gazebo_sim/tracer_skid_steer_controller[0m
+[100%] Built target tracer_skid_steer_controller

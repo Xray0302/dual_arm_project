@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/xurui/double_robot_project/devel/lib/libtracer_gazebo.a  CMakeFiles/tracer_gazebo.dir/src/tracer_skid_steer.cpp.o
+/usr/bin/ranlib /home/xurui/double_robot_project/devel/lib/libtracer_gazebo.a

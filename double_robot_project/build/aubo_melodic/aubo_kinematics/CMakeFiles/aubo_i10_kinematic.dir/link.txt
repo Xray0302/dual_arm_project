@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libaubo_i10_kinematic.so -o /home/xurui/double_robot_project/devel/lib/libaubo_i10_kinematic.so CMakeFiles/aubo_i10_kinematic.dir/src/kinematics.cpp.o 

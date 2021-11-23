@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target aubo_planner_test[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/aubo_planner_test.dir/src/aubo_planner_test.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/xurui/double_robot_project/devel/lib/aubo_planner/aubo_planner_test[0m
+[100%] Built target aubo_planner_test

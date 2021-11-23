@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<robot name="mobile_dual_arm" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <!--xacro:property name="PI" value="3.1415926"/-->
+  <!-- tracer -->
+  <xacro:include filename="$(find tracer_description)/urdf/tracer_v1.xacro" />
+  <!-- aubo-left -->
+  <xacro:include filename="$(find mobile_dual_arm_description)/urdf/aubo_i5_left.urdf" />
+  <!-- aubo-right -->
+  <xacro:include filename="$(find mobile_dual_arm_description)/urdf/aubo_i5_right.urdf" />
+  <!-- base_link to body_base -->
+  <xacro:include filename="$(find mobile_dual_arm_description)/urdf/dual_arm_body.urdf" />
+
+
+<!--
+  <joint name="left_arm_world_joint" type="fixed">
+    <parent link="" />
+    <child link="" />
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+  </joint>
+-->
+  <joint name="car_body_joint" type="fixed">
+    <parent link="base_link" />
+    <child link="body_base_link" />
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0" />
+  </joint>
+
+  <joint name="right_arm_base_joint" type="fixed">
+    <origin
+      xyz="0.00011627 0.00011627 0"
+      rpy="0 0 -2.355" />
+    <parent
+      link="body_right_arm_base_link" />
+    <child
+      link="right_arm_base_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+
+  <joint name="left_arm_base_joint" type="fixed">
+    <origin
+      xyz="0 0 -0.0005"
+      rpy="0 0 -0.785" />
+    <parent
+      link="body_left_arm_base_link" />
+    <child
+      link="left_arm_base_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+<!-- Old model -->
+<!--
+  <joint name="base_left_arm_joint" type="fixed">
+    <parent link="body_base_link" />
+    <child link="left_arm_base_link" />
+    <origin
+      xyz="-0.11438 0.16559 0.75502"
+      rpy="1.5708 0 2.3562" />
+  </joint>
+
+  <joint name="base_right_arm_joint" type="fixed">
+    <parent link="body_base_link" />
+    <child link="right_arm_base_link" />
+    <origin
+      xyz="-0.11438 -0.16559 0.75502"
+      rpy="1.5708 0 0.7854" />
+  </joint>
+-->
+
+
+
+
+</robot>

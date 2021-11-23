@@ -1,0 +1,8 @@
+prefix=/home/xurui/double_robot_project/devel
+
+Name: wrp_sdk
+Description: Description of wrp_sdk
+Version: 0.1.5
+Cflags: -I/home/xurui/double_robot_project/src/scout_robot/agx_sdk-scout_v2/include
+Libs: -L${prefix}/lib -lwrp_sdk
+Requires: 

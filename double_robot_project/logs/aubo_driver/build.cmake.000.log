@@ -1,0 +1,70 @@
+Not searching for unused variables given on the command line.
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/xurui/double_robot_project/devel
+-- Using CMAKE_PREFIX_PATH: /home/xurui/double_robot_project/devel;/opt/ros/melodic
+-- This workspace overlays: /home/xurui/double_robot_project/devel;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2")
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/xurui/double_robot_project/build/aubo_driver/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17")
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+### /home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/3rdparty/aubo_dependents/libconfig/linux_x64/inc;/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/3rdparty/aubo_dependents/log4cplus/linux_x64/inc;/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/3rdparty/aubo_dependents/protobuf/linux_x64/google/protobuf/inc;/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/3rdparty/aubo_dependents/robotController/Header;/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/3rdparty/aubo_dependents/robotSDK/inc;/home/xurui/double_robot_project/src/aubo_melodic/aubo_driver/3rdparty/aubo_dependents/otg/inc ######
+-- Configuring done
+CMake Warning (dev) at CMakeLists.txt:94 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "aubo_msgs_gencpp" of target "testAuboAPI" does not
+  exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:93 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "aubo_msgs_gencpp" of target "testIO" does not exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:92 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "aubo_msgs_gencpp" of target "aubo_driver" does not
+  exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done
+-- Build files have been written to: /home/xurui/double_robot_project/build/aubo_driver

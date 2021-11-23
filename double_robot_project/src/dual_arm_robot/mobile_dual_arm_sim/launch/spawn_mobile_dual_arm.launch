@@ -1,0 +1,13 @@
+<launch>
+    <!-- initial pose -->
+    <arg name="x" default="0.0"/>
+    <arg name="y" default="0.0"/>
+    <arg name="z" default="0.0"/>
+    <arg name="yaw" default="0.0"/>
+
+    <arg name="robot_namespace" default="/robot1"/>
+
+    <include file="$(find mobile_dual_arm_description)/launch/mobile_dual_arm_display.launch">
+        <arg name="robot_namespace" value="$(arg robot_namespace)" />
+    </include>
+</launch> 

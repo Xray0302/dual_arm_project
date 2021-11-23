@@ -1,0 +1,8 @@
+prefix=/home/xurui/double_robot_project/devel
+
+Name: mobile_dual_arm
+Description: Description of mobile_dual_arm
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

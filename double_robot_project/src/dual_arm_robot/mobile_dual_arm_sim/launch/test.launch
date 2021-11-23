@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<launch>
+    <include file="$(find mobile_dual_arm_sim)/launch/mobile_dual_arm_empty_world.launch" />
+    <include file="$(find tracer_base)/launch/tracer_base_sim.launch" />
+
+  <!-- The planning and execution components of MoveIt! configured to run -->
+  <!-- using the ROS-Industrial interface. -->
+ 
+  <rosparam command="load" file="$(find mobile_dual_arm_sim)/config/dual_arm_joint_names.yaml"/>
+
+  <!-- the "sim" argument controls whether we connect to a Simulated or Real robot -->
+  <!--  - if sim=false, a robot_ip argument is required -->
+  <arg name="left_arm_sim" default="true" />
+  <arg name="right_arm_sim" default="true" />
+  <arg name="left_robot_ip" default="192.168.1.107" />
+  <arg name="right_robot_ip" default="192.168.1.108" />
+ 
+  <include file="$(find mobile_dual_arm_sim)/launch/dual_arm_planning_context.launch" >
+    <arg name="load_robot_description" value="true" />
+  </include>
+
+  <!-- industrial_robot_simulator: accepts robot commands and reports status -->
+
+<!-- right arm simulator -->
+  <node pkg="aubo_controller" type="right_aubo_robot_simulator" name="right_aubo_robot_simulator"/>
+  <node pkg="aubo_controller" type="right_arm_aubo_joint_trajectory_action" name="right_arm_aubo_joint_trajectory_action"/>
+
+  <node pkg="aubo_controller" type="left_aubo_robot_simulator" name="left_aubo_robot_simulator"/>
+  <!-- joint_trajectory_action: provides actionlib interface for high-level robot control -->
+  <node pkg="aubo_controller" type="left_arm_aubo_joint_trajectory_action" name="left_arm_aubo_joint_trajectory_action"/>
+
+
+
+ <!-- publish the robot state (tf transforms) -->
+
+  <param name="/left_aubo_driver/server_host" type="str" value="$(arg left_robot_ip)"/>
+
+  <param name="/right_aubo_driver/server_host" type="str" value="$(arg right_robot_ip)"/>
+  <!--<param name="/server_host" value="127.0.0.1"/> -->
+
+
+
+</launch>

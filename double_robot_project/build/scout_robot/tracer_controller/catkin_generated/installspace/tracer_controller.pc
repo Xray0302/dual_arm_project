@@ -1,0 +1,8 @@
+prefix=/home/xurui/double_robot_project/install
+
+Name: tracer_controller
+Description: Description of tracer_controller
+Version: 0.0.0
+Cflags: -I${prefix}/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -ltracer_controller
+Requires: 
